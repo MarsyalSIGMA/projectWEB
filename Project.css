@@ -1,0 +1,306 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* css reset */
+
+
+@font-face {
+	font-family: 'mk4';
+	src: url(font/MK4.TTF);
+}
+
+@font-face {
+	font-family: Bluffolk;
+	src: url(font/Bluffolk.otf);
+}
+
+@font-face {
+	font-family: BOLD;
+	src: url(font/THE\ BOLD\ FONT\ -\ FREE\ VERSION\ -\ 2023.otf);
+}
+
+@font-face {
+	font-family: logo;
+	src: url(font/MK4.TTF);
+}
+/* FONT */
+
+body {
+	overflow-x: hidden;
+}
+
+header {
+	display: flex;
+	background-color: rgb(200, 255, 0);
+	justify-content: space-around;
+	height: 50px;
+	align-items: center;
+}
+
+header ul {
+	display: flex;
+	width: 20%;
+	justify-content: space-between;
+}
+
+header ul li a{
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+}
+
+header ul li a:hover{
+	text-decoration: underline;
+}
+
+header .logo h1 {
+	font-family: logo;
+	font-size: 30px;
+	letter-spacing: 1vw;
+}
+
+/* hamburger menu */
+
+.menu-toggle {
+	display: none;
+	flex-direction: column;
+	height: 15px;
+	justify-content: space-between;
+	position: relative;
+	
+}
+
+.menu-toggle span {
+	display: block;
+	width: 28px;
+	height: 2px;
+	background-color: rgb(255, 255, 255);
+	position: relative;
+	transition: all 0.5s;
+}
+
+.menu-toggle input {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top: -8px;
+	left: -6px;
+	opacity: 0;
+	cursor: pointer;
+	z-index: 2;
+}
+
+/* hamburger menu animation */
+
+.menu-toggle span:nth-child(2) {
+	transform-origin: 0 0;
+}
+
+.menu-toggle span:nth-child(4) {
+	transform-origin: 0 100%;
+}
+
+.menu-toggle input:checked ~ span:nth-child(2) {
+	transform: rotate(33deg) translate(-1px, -1px);
+}
+
+.menu-toggle input:checked ~ span:nth-child(4) {
+	transform: rotate(-33deg) translate(-1px, 0);
+}
+
+.menu-toggle input:checked ~ span:nth-child(3) {
+	opacity: 0;
+	transform: scale(0);
+}
+
+/* ukuran tablet */
+
+@media screen and (max-width: 768px) {
+	header ul {
+		width: 30%;
+	}
+}
+
+/* ukuran mobile */
+
+@media screen and (max-width: 576px) {
+	.menu-toggle {
+		display: flex;
+		z-index: 2;
+	}
+	header ul {
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 80%;
+		height: 100vh;
+		background-color: rgb(187, 255, 0);
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-evenly;
+		z-index: 1;
+		transform: translateX(100%);
+		transition: all 1s;
+		opacity: 0;
+	}
+
+	header ul.slide {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+/*navbar*/
+
+.top-img {
+	background-color: salmon;
+	width: 100%;
+	height: 270px;
+	background-image: url(gambar/mk.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0vw -19vh;
+}
+
+/* ukuran tablet */
+
+@media screen and (max-width: 768px)  {
+	.top-img {
+		background-image: url(gambar/mk.jpg);
+	}
+}
+
+/* ukuran handphone */
+
+@media screen and (max-width: 576px) {
+	.top-img {
+		background-image: url(gambar/mk.jpg);
+		background-size: cover;
+		background-position: -13vw 0vh;
+	}
+}
+
+/* top img */
+
+.detail p {
+	color: rgb(51, 51, 118);
+	font-size: 25px;
+	padding: 10px;
+	font-family: Bluffolk;
+}
+
+.detail h1 {
+	font-size: 50px;
+	font-family: BOLD;
+	padding-left: 20px;
+}
+
+.detail .p2 {
+	font-family: BOLD;
+	font-size: 15px;
+	padding-left: 20px;
+	color: rgb(155, 153, 153);
+}
+
+.wrapper {
+	display: inline-flex;
+	width: 500px;
+	height: 25px;
+	background-color: rgb(255, 255, 255);
+	position: relative;
+	left: 20px;
+}
+
+.wrapper .by {
+	width: 30px;
+	height: 30px;
+	background-color: gray;
+	border-radius: 50%;
+}
+
+.wrapper p {
+	margin-top: 8px;
+	margin-left: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold
+}
+
+.img-detail {
+	width: 85%;
+	height: 450px;
+	background-color: #04AA6D;
+	margin: auto;
+	background-image: url(gambar/gambar-isi.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.container-menu h1 {
+	font-size: 25px;
+	font-family: BOLD;
+	padding-left: 20px;
+}
+
+.mk-menu {
+	position: absolute;
+	left: 135px;
+	display: flex;
+}
+
+.mk-menu img {
+	width: 50vw;
+	height: 50vh
+}
+
+.mk-menu p {
+	margin-left: 10px;
+	margin-right: 120px;
+	font-size: large;
+}
