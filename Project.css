@@ -64,6 +64,7 @@ table {
 	font-family: BOLD;
 	src: url(font/THE\ BOLD\ FONT\ -\ FREE\ VERSION\ -\ 2023.otf);
 }
+<<<<<<< HEAD
 
 @font-face {
 	font-family: logo;
@@ -193,6 +194,39 @@ header .logo h1 {
 		opacity: 1;
 		transform: translateX(0);
 	}
+=======
+/* FONT */
+
+body {margin: 0;}
+
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.navbar li {float: left;}
+
+ul.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.navbar li a:hover:not(.active) {background-color: #111;}
+
+ul.navbar li a.active {background-color: #04AA6D;}
+
+ul.navbar li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.navbar li.right, 
+  ul.navbar li {float: none;}
+>>>>>>> b2ce8a97cf7e3429a1a7796bac14dab0e89b00ef
 }
 
 /*navbar*/
@@ -207,6 +241,7 @@ header .logo h1 {
 	background-position: 0vw -19vh;
 }
 
+<<<<<<< HEAD
 /* ukuran tablet */
 
 @media screen and (max-width: 768px)  {
@@ -227,6 +262,8 @@ header .logo h1 {
 
 /* top img */
 
+=======
+>>>>>>> b2ce8a97cf7e3429a1a7796bac14dab0e89b00ef
 .detail p {
 	color: rgb(51, 51, 118);
 	font-size: 25px;

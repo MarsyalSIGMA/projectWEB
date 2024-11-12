@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -858,4 +859,10 @@ header .logo h1 {
 	background-color: aliceblue;
 	border: gray solid 2px;
 	border-radius: 10px
+=======
+.container {
+    width: 800px;
+    margin: auto;
+    
+>>>>>>> b2ce8a97cf7e3429a1a7796bac14dab0e89b00ef
 }
