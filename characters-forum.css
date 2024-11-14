@@ -1834,6 +1834,11 @@ video {
 
 /* Table move style */
 
+<<<<<<< HEAD
+=======
+/* ermac style */
+
+>>>>>>> c2ea7e1 (progress_marsyal)
 .logo-photo-profil {
     background-image: url(gambar/mk\ logo.jfif);
     background-size: cover;
@@ -1847,7 +1852,11 @@ video {
         border: 2px solid black;
 }
 
+<<<<<<< HEAD
 .characters-profile-container5 {
+=======
+.characters-profile-container8 {
+>>>>>>> c2ea7e1 (progress_marsyal)
     background-color: rgba(0, 0, 0, 0.801);
     width: 97.5%;
     height: 400px;
@@ -1862,7 +1871,11 @@ video {
 
 /* characters container style */
 
+<<<<<<< HEAD
 .profile-header5{
+=======
+.profile-header8{
+>>>>>>> c2ea7e1 (progress_marsyal)
 	width: 170px;
 	height: 30px;
 	position: absolute;
@@ -1875,14 +1888,22 @@ video {
 
 /* profil header style */
 
+<<<<<<< HEAD
 .characters-profile-menu6 {
+=======
+.characters-profile-menu8 {
+>>>>>>> c2ea7e1 (progress_marsyal)
     background-color: rgb(0, 0, 0);
     width: 300px;
     height: 350px;
     margin-left: 10px;
     border: 2px solid yellow;
     border-radius: 20px;
+<<<<<<< HEAD
     background-image: url(gambar/erron-black-mortal-kombat-x-character-artwork-altar-of-gaming-200.avif);
+=======
+    background-image: url(gambar/goro-mortal-kombat-x-character-artwork-altar-of-gaming-224.avif);
+>>>>>>> c2ea7e1 (progress_marsyal)
     background-repeat: no-repeat;
     background-size: cover;
     background-position: -20px 20px;
@@ -1928,14 +1949,22 @@ video {
 
 /* video style */
 
+<<<<<<< HEAD
 .characters-moves-list6 {
+=======
+.characters-moves-list8 {
+>>>>>>> c2ea7e1 (progress_marsyal)
     height: 100%;
     width: 750px;
     position: relative;
     border-left: grey solid 2px;
 }
 
+<<<<<<< HEAD
 .moveset6 {
+=======
+.moveset8 {
+>>>>>>> c2ea7e1 (progress_marsyal)
     width: 100%;
     height: 100%;
     overflow-x: auto;
@@ -1943,24 +1972,38 @@ video {
 
 /* characters-moves style */
 
+<<<<<<< HEAD
 .move-list6 {
+=======
+.move-list8 {
+>>>>>>> c2ea7e1 (progress_marsyal)
     width: 80%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+<<<<<<< HEAD
 .move-list6 th,
 .move-list6 td {
+=======
+.move-list8 th,
+.move-list8 td {
+>>>>>>> c2ea7e1 (progress_marsyal)
     padding: 10px;
     text-align: left;
     border: 1px solid #444;
 }
 
+<<<<<<< HEAD
 .move-list6 th {
+=======
+.move-list8 th {
+>>>>>>> c2ea7e1 (progress_marsyal)
     background-color: #444;
     color: white;
     text-align: left;
 }
 
+<<<<<<< HEAD
 .move-list6 tr:hover {
     background-color: #555;
 }
@@ -1970,9 +2013,25 @@ video {
 }
 
 .move-list6 td:nth-child(2) {
+=======
+.move-list8 tr:hover {
+    background-color: #555;
+}
+
+.move-list8 td {
+    font-size: 16px;
+}
+
+.move-list8 td:nth-child(2) {
+>>>>>>> c2ea7e1 (progress_marsyal)
     text-align: center;
     font-weight: bold;
 }
 
 /* Table move style */
+<<<<<<< HEAD
 >>>>>>> 59d043c44a012918308f10424fbce15e3b0de921
+=======
+
+/* ermac style */
+>>>>>>> c2ea7e1 (progress_marsyal)
