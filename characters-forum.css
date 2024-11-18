@@ -909,7 +909,7 @@
                                          background-image: url(gambar/erron-black-mortal-kombat-x-character-artwork-altar-of-gaming-200.avif);
                                          background-repeat: no-repeat;
                                          background-size: cover;
-                                         background-position: 10px 20px;
+                                         background-position: -20px 0;
                                          margin-top: 23px;
                                      }
                                      /* characters profil style */
@@ -1039,7 +1039,7 @@
                                          background-image: url(gambar/ferra--torr-mortal-kombat-x-character-artwork-altar-of-gaming-222.avif);
                                          background-repeat: no-repeat;
                                          background-size: cover;
-                                         background-position: 0px 20px;
+                                         background-position: -20px 20px;
                                          margin-top: 23px;
                                      }
                                      /* characters profil style */
@@ -1170,7 +1170,7 @@
                                          background-image: url(gambar/goro-mortal-kombat-x-character-artwork-altar-of-gaming-224.avif);
                                          background-repeat: no-repeat;
                                          background-size: cover;
-                                         background-position: 0px 20px;
+                                         background-position: -20px 20px;
                                          margin-top: 23px;
                                      }
                                      /* characters profil style */
@@ -1301,7 +1301,7 @@
                                          background-image: url(gambar/jacqui-briggs-mortal-kombat-x-character-artwork-altar-of-gaming-201.avif);
                                          background-repeat: no-repeat;
                                          background-size: cover;
-                                         background-position: 0px 20px;
+                                         background-position: -30px 20px;
                                          margin-top: 23px;
                                      }
                                      /* characters profil style */
@@ -1432,7 +1432,7 @@
                                          background-image: url(gambar/jason-voorhees-mortal-kombat-x-character-artwork-altar-of-gaming-223.avif);
                                          background-repeat: no-repeat;
                                          background-size: cover;
-                                         background-position: 0px 20px;
+                                         background-position: -50px 0;
                                          margin-top: 23px;
                                      }
                                      /* characters profil style */
@@ -1513,3 +1513,610 @@
                                          font-weight: bold;
                                      }
                                      /* Table move style */
+                                     /* jason style */
+                                     
+                                     .logo-photo-profil {
+                                        background-image: url(gambar/mk\ logo.jfif);
+                                        background-size: cover;
+                                        background-color: black;
+                                        width: 25px;
+                                        height: 25px;
+                                        background-color: rgb(0, 0, 0);
+                                        position: absolute;
+                                        left: 15px;
+                                        border-radius: 25%;
+                                        border: 2px solid black;
+                                    }
+                                    
+                                    .characters-profile-container11 {
+                                        background-color: rgba(0, 0, 0, 0.801);
+                                        width: 97.5%;
+                                        height: 400px;
+                                        border-radius: 20px;
+                                        margin: 10px;
+                                        border: 2px gray solid;
+                                        position: relative;
+                                        align-content: center;
+                                        display: flex;
+                                        overflow: hidden;
+                                    }
+                                    /* characters container style */
+                                    
+                                    .profile-header11 {
+                                        width: 170px;
+                                        height: 30px;
+                                        position: absolute;
+                                        margin-left: 27px;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                    }
+                                    /* profil header style */
+                                    
+                                    .characters-profile-menu11 {
+                                        background-color: rgb(0, 0, 0);
+                                        width: 300px;
+                                        height: 350px;
+                                        margin-left: 10px;
+                                        border: 2px solid yellow;
+                                        border-radius: 20px;
+                                        background-image: url(gambar/jax-briggs-mortal-kombat-x-character-artwork-altar-of-gaming-202.avif);
+                                        background-repeat: no-repeat;
+                                        background-size: cover;
+                                        background-position: 0px 0;
+                                        margin-top: 23px;
+                                    }
+                                    /* characters profil style */
+                                    
+                                    .characters-info {
+                                        margin-right: 2rem;
+                                    }
+                                    
+                                    .characters-info h1 {
+                                        font-size: 20px;
+                                        font-weight: bolder;
+                                        color: orange;
+                                        margin-left: 20px;
+                                        margin-bottom: 10px;
+                                    }
+                                    /* charcater info style */
+                                    
+                                    table {
+                                        margin: 23px;
+                                        background-color: #acacac23;
+                                    }
+                                    
+                                    table tr {
+                                        border: 2px solid rgb(133, 133, 133);
+                                        border-radius: 23px;
+                                    }
+                                    /* table-info style */
+                                    
+                                    video {
+                                        margin-left: 20px;
+                                        border: 2px solid orange;
+                                        border-radius: 10px;
+                                    }
+                                    /* video style */
+                                    
+                                    .characters-moves-list11 {
+                                        height: 100%;
+                                        width: 750px;
+                                        position: relative;
+                                        border-left: grey solid 2px;
+                                    }
+                                    
+                                    .moveset11 {
+                                        width: 100%;
+                                        height: 100%;
+                                        overflow-x: auto;
+                                    }
+                                    /* characters-moves style */
+                                    
+                                    .move-list11 {
+                                        width: 80%;
+                                        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                                    }
+                                    
+                                    .move-list11 th,
+                                    .move-list11 td {
+                                        padding: 10px;
+                                        text-align: left;
+                                        border: 1px solid #444;
+                                    }
+                                    
+                                    .move-list11 th {
+                                        background-color: #444;
+                                        color: white;
+                                        text-align: left;
+                                    }
+                                    
+                                    .move-list11 tr:hover {
+                                        background-color: #555;
+                                    }
+                                    
+                                    .move-list11 td {
+                                        font-size: 16px;
+                                    }
+                                    
+                                    .move-list11 td:nth-child(2) {
+                                        text-align: center;
+                                        font-weight: bold;
+                                    }
+                                    /* Table move style */
+                                    /* Jax Briggs style */
+
+                                    .characters-profile-container12 {
+                                        background-color: rgba(0, 0, 0, 0.801);
+                                        width: 97.5%;
+                                        height: 400px;
+                                        border-radius: 20px;
+                                        margin: 10px;
+                                        border: 2px gray solid;
+                                        position: relative;
+                                        align-content: center;
+                                        display: flex;
+                                        overflow: hidden;
+                                    }
+                                    /* characters container style */
+                                    
+                                    .profile-header12 {
+                                        width: 170px;
+                                        height: 30px;
+                                        position: absolute;
+                                        margin-left: 27px;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                    }
+                                    /* profil header style */
+                                    
+                                    .characters-profile-menu12 {
+                                        background-color: rgb(0, 0, 0);
+                                        width: 300px;
+                                        height: 350px;
+                                        margin-left: 10px;
+                                        border: 2px solid yellow;
+                                        border-radius: 20px;
+                                        background-image: url(gambar/johnny-cage-mortal-kombat-x-character-artwork-altar-of-gaming-203.avif);
+                                        background-repeat: no-repeat;
+                                        background-size: cover;
+                                        background-position: 0px 0;
+                                        margin-top: 23px;
+                                    }
+                                    /* characters profil style */
+                                    
+                                    .characters-info {
+                                        margin-right: 2rem;
+                                    }
+                                    
+                                    .characters-info h1 {
+                                        font-size: 20px;
+                                        font-weight: bolder;
+                                        color: orange;
+                                        margin-left: 20px;
+                                        margin-bottom: 10px;
+                                    }
+                                    /* charcater info style */
+                                    
+                                    table {
+                                        margin: 23px;
+                                        background-color: #acacac23;
+                                    }
+                                    
+                                    table tr {
+                                        border: 2px solid rgb(133, 133, 133);
+                                        border-radius: 23px;
+                                    }
+                                    /* table-info style */
+                                    
+                                    video {
+                                        margin-left: 20px;
+                                        border: 2px solid orange;
+                                        border-radius: 10px;
+                                    }
+                                    /* video style */
+                                    
+                                    .characters-moves-list12 {
+                                        height: 100%;
+                                        width: 750px;
+                                        position: relative;
+                                        border-left: grey solid 2px;
+                                    }
+                                    
+                                    .moveset12 {
+                                        width: 100%;
+                                        height: 100%;
+                                        overflow-x: auto;
+                                    }
+                                    /* characters-moves style */
+                                    
+                                    .move-list12 {
+                                        width: 80%;
+                                        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                                    }
+                                    
+                                    .move-list12 th,
+                                    .move-list12 td {
+                                        padding: 10px;
+                                        text-align: left;
+                                        border: 1px solid #444;
+                                    }
+                                    
+                                    .move-list12 th {
+                                        background-color: #444;
+                                        color: white;
+                                        text-align: left;
+                                    }
+                                    
+                                    .move-list12 tr:hover {
+                                        background-color: #555;
+                                    }
+                                    
+                                    .move-list12 td {
+                                        font-size: 16px;
+                                    }
+                                    
+                                    .move-list12 td:nth-child(2) {
+                                        text-align: center;
+                                        font-weight: bold;
+                                    }
+                                    /* Table move style */
+
+                                    /* Johnny Cage */
+
+                                    .characters-profile-container13 {
+                                        background-color: rgba(0, 0, 0, 0.801);
+                                        width: 97.5%;
+                                        height: 400px;
+                                        border-radius: 20px;
+                                        margin: 10px;
+                                        border: 2px gray solid;
+                                        position: relative;
+                                        align-content: center;
+                                        display: flex;
+                                        overflow: hidden;
+                                    }
+                                    /* characters container style */
+                                    
+                                    .profile-header13 {
+                                        width: 170px;
+                                        height: 30px;
+                                        position: absolute;
+                                        margin-left: 27px;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                    }
+                                    /* profil header style */
+                                    
+                                    .characters-profile-menu13 {
+                                        background-color: rgb(0, 0, 0);
+                                        width: 300px;
+                                        height: 350px;
+                                        margin-left: 10px;
+                                        border: 2px solid yellow;
+                                        border-radius: 20px;
+                                        background-image: url(gambar/kano-mortal-kombat-x-character-artwork-altar-of-gaming-204.avif);
+                                        background-repeat: no-repeat;
+                                        background-size: cover;
+                                        background-position: 0px 0;
+                                        margin-top: 23px;
+                                    }
+                                    /* characters profil style */
+                                    
+                                    .characters-info {
+                                        margin-right: 2rem;
+                                    }
+                                    
+                                    .characters-info h1 {
+                                        font-size: 20px;
+                                        font-weight: bolder;
+                                        color: orange;
+                                        margin-left: 20px;
+                                        margin-bottom: 10px;
+                                    }
+                                    /* charcater info style */
+                                    
+                                    table {
+                                        margin: 23px;
+                                        background-color: #acacac23;
+                                    }
+                                    
+                                    table tr {
+                                        border: 2px solid rgb(133, 133, 133);
+                                        border-radius: 23px;
+                                    }
+                                    /* table-info style */
+                                    
+                                    video {
+                                        margin-left: 20px;
+                                        border: 2px solid orange;
+                                        border-radius: 10px;
+                                    }
+                                    /* video style */
+                                    
+                                    .characters-moves-list13 {
+                                        height: 100%;
+                                        width: 750px;
+                                        position: relative;
+                                        border-left: grey solid 2px;
+                                    }
+                                    
+                                    .moveset13 {
+                                        width: 100%;
+                                        height: 100%;
+                                        overflow-x: auto;
+                                    }
+                                    /* characters-moves style */
+                                    
+                                    .move-list13 {
+                                        width: 80%;
+                                        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                                    }
+                                    
+                                    .move-list13 th,
+                                    .move-list13 td {
+                                        padding: 10px;
+                                        text-align: left;
+                                        border: 1px solid #444;
+                                    }
+                                    
+                                    .move-list13 th {
+                                        background-color: #444;
+                                        color: white;
+                                        text-align: left;
+                                    }
+                                    
+                                    .move-list13 tr:hover {
+                                        background-color: #555;
+                                    }
+                                    
+                                    .move-list13 td {
+                                        font-size: 16px;
+                                    }
+                                    
+                                    .move-list13 td:nth-child(2) {
+                                        text-align: center;
+                                        font-weight: bold;
+                                    }
+                                    /* Table move style */
+
+                                    /* Kano */
+
+                                    .characters-profile-container14 {
+                                        background-color: rgba(0, 0, 0, 0.801);
+                                        width: 97.5%;
+                                        height: 400px;
+                                        border-radius: 20px;
+                                        margin: 10px;
+                                        border: 2px gray solid;
+                                        position: relative;
+                                        align-content: center;
+                                        display: flex;
+                                        overflow: hidden;
+                                    }
+                                    /* characters container style */
+                                    
+                                    .profile-header14 {
+                                        width: 170px;
+                                        height: 30px;
+                                        position: absolute;
+                                        margin-left: 27px;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                    }
+                                    /* profil header style */
+                                    
+                                    .characters-profile-menu14 {
+                                        background-color: rgb(0, 0, 0);
+                                        width: 300px;
+                                        height: 350px;
+                                        margin-left: 10px;
+                                        border: 2px solid yellow;
+                                        border-radius: 20px;
+                                        background-image: url(gambar/kenshi-mortal-kombat-x-character-artwork-altar-of-gaming-225.avif);
+                                        background-repeat: no-repeat;
+                                        background-size: cover;
+                                        background-position: 0px 0;
+                                        margin-top: 23px;
+                                    }
+                                    /* characters profil style */
+                                    
+                                    .characters-info {
+                                        margin-right: 2rem;
+                                    }
+                                    
+                                    .characters-info h1 {
+                                        font-size: 20px;
+                                        font-weight: bolder;
+                                        color: orange;
+                                        margin-left: 20px;
+                                        margin-bottom: 10px;
+                                    }
+                                    /* charcater info style */
+                                    
+                                    table {
+                                        margin: 23px;
+                                        background-color: #acacac23;
+                                    }
+                                    
+                                    table tr {
+                                        border: 2px solid rgb(133, 133, 133);
+                                        border-radius: 23px;
+                                    }
+                                    /* table-info style */
+                                    
+                                    video {
+                                        margin-left: 20px;
+                                        border: 2px solid orange;
+                                        border-radius: 10px;
+                                    }
+                                    /* video style */
+                                    
+                                    .characters-moves-list14 {
+                                        height: 100%;
+                                        width: 750px;
+                                        position: relative;
+                                        border-left: grey solid 2px;
+                                    }
+                                    
+                                    .moveset14 {
+                                        width: 100%;
+                                        height: 100%;
+                                        overflow-x: auto;
+                                    }
+                                    /* characters-moves style */
+                                    
+                                    .move-list14 {
+                                        width: 80%;
+                                        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                                    }
+                                    
+                                    .move-list14 th,
+                                    .move-list14 td {
+                                        padding: 10px;
+                                        text-align: left;
+                                        border: 1px solid #444;
+                                    }
+                                    
+                                    .move-list14 th {
+                                        background-color: #444;
+                                        color: white;
+                                        text-align: left;
+                                    }
+                                    
+                                    .move-list14 tr:hover {
+                                        background-color: #555;
+                                    }
+                                    
+                                    .move-list14 td {
+                                        font-size: 16px;
+                                    }
+                                    
+                                    .move-list14 td:nth-child(2) {
+                                        text-align: center;
+                                        font-weight: bold;
+                                    }
+                                    /* Table move style */
+
+                                    /* Kenshi */
+
+                                    .characters-profile-container15 {
+                                        background-color: rgba(0, 0, 0, 0.801);
+                                        width: 97.5%;
+                                        height: 400px;
+                                        border-radius: 20px;
+                                        margin: 10px;
+                                        border: 2px gray solid;
+                                        position: relative;
+                                        align-content: center;
+                                        display: flex;
+                                        overflow: hidden;
+                                    }                    
+
+                                    .profile-header15 {
+                                        width: 170px;
+                                        height: 30px;
+                                        position: absolute;
+                                        margin-left: 27px;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                    }
+                                    /* profil header style */
+                                    
+                                    .characters-profile-menu15 {
+                                        background-color: rgb(0, 0, 0);
+                                        width: 300px;
+                                        height: 350px;
+                                        margin-left: 10px;
+                                        border: 2px solid yellow;
+                                        border-radius: 20px;
+                                        background-image: url(gambar/kitana-mortal-kombat-x-character-artwork-altar-of-gaming-205.avif);
+                                        background-repeat: no-repeat;
+                                        background-size: cover;
+                                        background-position: 0px 0;
+                                        margin-top: 23px;
+                                    }
+                                    /* characters profil style */
+                                    
+                                    .characters-info {
+                                        margin-right: 2rem;
+                                    }
+                                    
+                                    .characters-info h1 {
+                                        font-size: 20px;
+                                        font-weight: bolder;
+                                        color: orange;
+                                        margin-left: 20px;
+                                        margin-bottom: 10px;
+                                    }
+                                    /* charcater info style */
+                                    
+                                    table {
+                                        margin: 23px;
+                                        background-color: #acacac23;
+                                    }
+                                    
+                                    table tr {
+                                        border: 2px solid rgb(133, 133, 133);
+                                        border-radius: 23px;
+                                    }
+                                    /* table-info style */
+                                    
+                                    video {
+                                        margin-left: 20px;
+                                        border: 2px solid orange;
+                                        border-radius: 10px;
+                                    }
+                                    /* video style */
+                                    
+                                    .characters-moves-list15 {
+                                        height: 100%;
+                                        width: 750px;
+                                        position: relative;
+                                        border-left: grey solid 2px;
+                                    }
+                                    
+                                    .moveset15 {
+                                        width: 100%;
+                                        height: 100%;
+                                        overflow-x: auto;
+                                    }
+                                    /* characters-moves style */
+                                    
+                                    .move-list15 {
+                                        width: 80%;
+                                        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                                    }
+                                    
+                                    .move-list15 th,
+                                    .move-list15 td {
+                                        padding: 10px;
+                                        text-align: left;
+                                        border: 1px solid #444;
+                                    }
+                                    
+                                    .move-list15 th {
+                                        background-color: #444;
+                                        color: white;
+                                        text-align: left;
+                                    }
+                                    
+                                    .move-list15 tr:hover {
+                                        background-color: #555;
+                                    }
+                                    
+                                    .move-list15 td {
+                                        font-size: 16px;
+                                    }
+                                    
+                                    .move-list15 td:nth-child(2) {
+                                        text-align: center;
+                                        font-weight: bold;
+                                    }
+                                    /* Table move style */
+
+                                    /* kitana style */
