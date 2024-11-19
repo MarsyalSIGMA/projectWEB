@@ -176,10 +176,16 @@
                                         padding: 10px 15px;
                                         transition: background-color 0.3s;
                                       }
+
+                                      .navbar .judul {
+                                        font-family: logo;
+                                        font-size: 30px;
+                                      }
                                   
                                       .navbar a:hover {
                                         background-color: #555;
                                       }
+
 
                                       .logo-photo-profil {
                                         height: 30px;
