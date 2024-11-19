@@ -161,41 +161,85 @@
                                          font-family: Arial, Helvetica, sans-serif;
                                      }
                                      
-                                     header {
-                                         height: 100px;
-                                         width: 100%;
-                                         background-color: rgba(150, 150, 150, 0.749);
-                                         border: 3px solid rgb(166, 166, 166);
-                                         display: flex;
-                                         height: 50px;
-                                         align-items: center;
-                                         position: relative;
-                                     }
-                                     
-                                     header .navbar {
-                                         display: flex;
-                                         justify-content: space-between;
-                                         width: 27rem;
-                                         position: absolute;
-                                         right: 30px;
-                                     }
-                                     
-                                     header ul li {
-                                         margin-right: 5px;
-                                     }
-                                     
-                                     header ul li a {
-                                         text-decoration: none;
-                                         color: rgb(0, 0, 0);
-                                     }
-                                     
-                                     header ul li a:hover {
-                                         text-decoration: underline;
-                                     }
-                                     
-                                     header h1 {
-                                         margin-left: 50px;
-                                     }
+                                     .navbar {
+                                        display: flex;
+                                        justify-content: space-between;
+                                        align-items: center;
+                                        background-color: #333;
+                                        color: white;
+                                        padding: 10px 20px;
+                                      }
+                                  
+                                      .navbar a {
+                                        text-decoration: none;
+                                        color: white;
+                                        padding: 10px 15px;
+                                        transition: background-color 0.3s;
+                                      }
+
+                                      .navbar .judul {
+                                        font-family: logo;
+                                        font-size: 30px;
+                                      }
+                                  
+                                      .navbar a:hover {
+                                        background-color: #555;
+                                      }
+
+
+                                      .logo-photo-profil {
+                                        height: 30px;
+                                        width: 30px;
+                                        background-color: red;
+                                        background-image: url(gambar/mk\ logo.jfif);
+                                        background-size: cover;
+                                      }
+                                  
+                                      .dropdown {
+                                        position: relative;
+                                        display: inline-block;
+                                      }
+                                  
+                                      .dropdown-content {
+                                        display: none;
+                                        position: absolute;
+                                        right: 0;
+                                        background-color: white;
+                                        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+                                        z-index: 1;
+                                        min-width: 160px;
+                                      }
+                                  
+                                      .dropdown-content a {
+                                        color: black;
+                                        padding: 10px 15px;
+                                        text-decoration: none;
+                                        display: block;
+                                      }
+                                  
+                                      .dropdown-content a:hover {
+                                        background-color: #ddd;
+                                      }
+                                  
+                                      .dropdown:hover .dropdown-content {
+                                        display: block;
+                                      }
+                                  
+                                      .dropdown:hover .dropdown-button {
+                                        background-color: #555;
+                                      }
+                                  
+                                      .dropdown-button {
+                                        background-color: #333;
+                                        border: none;
+                                        color: white;
+                                        padding: 10px 15px;
+                                        cursor: pointer;
+                                      }
+                                  
+                                      .dropdown-button:focus {
+                                        outline: none;
+                                      }
                                      /* header */
                                      
                                      .container-menu {
@@ -207,18 +251,7 @@
                                          color: white;
                                      }
                                      /* container menu style */
-                                     
-                                     .logo-photo-profil {
-                                         background-image: url(gambar/mk\ logo.jfif);
-                                         background-color: black;
-                                         width: 25px;
-                                         height: 25px;
-                                         background-color: rgb(0, 0, 0);
-                                         position: absolute;
-                                         left: 15px;
-                                         border-radius: 25%;
-                                         border: 2px solid black;
-                                     }
+                                    
                                      
                                      .characters-profile-container {
                                          background-color: rgba(0, 0, 0, 0.801);
@@ -338,19 +371,6 @@
                                      /* Table move style */
                                      /* Alien-style */
                                      
-                                     .logo-photo-profil {
-                                         background-image: url(gambar/mk\ logo.jfif);
-                                         background-size: cover;
-                                         background-color: black;
-                                         width: 25px;
-                                         height: 25px;
-                                         background-color: rgb(0, 0, 0);
-                                         position: absolute;
-                                         left: 15px;
-                                         border-radius: 25%;
-                                         border: 2px solid black;
-                                     }
-                                     
                                      .characters-profile-container2 {
                                          background-color: rgba(0, 0, 0, 0.801);
                                          width: 97.5%;
@@ -469,19 +489,6 @@
                                      /* Table move style */
                                      /* bo-rai-cho style */
                                      
-                                     .logo-photo-profil {
-                                         background-image: url(gambar/mk\ logo.jfif);
-                                         background-size: cover;
-                                         background-color: black;
-                                         width: 25px;
-                                         height: 25px;
-                                         background-color: rgb(0, 0, 0);
-                                         position: absolute;
-                                         left: 15px;
-                                         border-radius: 25%;
-                                         border: 2px solid black;
-                                     }
-                                     
                                      .characters-profile-container3 {
                                          background-color: rgba(0, 0, 0, 0.801);
                                          width: 97.5%;
@@ -599,19 +606,7 @@
                                      }
                                      /* Table move style */
                                      /* cassie-cage style */
-                                     
-                                     .logo-photo-profil {
-                                         background-image: url(gambar/mk\ logo.jfif);
-                                         background-size: cover;
-                                         background-color: black;
-                                         width: 25px;
-                                         height: 25px;
-                                         background-color: rgb(0, 0, 0);
-                                         position: absolute;
-                                         left: 15px;
-                                         border-radius: 25%;
-                                         border: 2px solid black;
-                                     }
+                                    
                                      
                                      .characters-profile-container4 {
                                          background-color: rgba(0, 0, 0, 0.801);
@@ -729,19 +724,7 @@
                                          font-weight: bold;
                                      }
                                      /* Table move style */
-                                     
-                                     .logo-photo-profil {
-                                         background-image: url(gambar/mk\ logo.jfif);
-                                         background-size: cover;
-                                         background-color: black;
-                                         width: 25px;
-                                         height: 25px;
-                                         background-color: rgb(0, 0, 0);
-                                         position: absolute;
-                                         left: 15px;
-                                         border-radius: 25%;
-                                         border: 2px solid black;
-                                     }
+
                                      
                                      .characters-profile-container5 {
                                          background-color: rgba(0, 0, 0, 0.801);
@@ -861,18 +844,6 @@
                                      /* Table move style */
                                      /* ermac style */
                                      
-                                     .logo-photo-profil {
-                                         background-image: url(gambar/mk\ logo.jfif);
-                                         background-size: cover;
-                                         background-color: black;
-                                         width: 25px;
-                                         height: 25px;
-                                         background-color: rgb(0, 0, 0);
-                                         position: absolute;
-                                         left: 15px;
-                                         border-radius: 25%;
-                                         border: 2px solid black;
-                                     }
                                      
                                      .characters-profile-container6 {
                                          background-color: rgba(0, 0, 0, 0.801);
@@ -990,19 +961,7 @@
                                          font-weight: bold;
                                      }
                                      /* Table move style */
-                                     
-                                     .logo-photo-profil {
-                                         background-image: url(gambar/mk\ logo.jfif);
-                                         background-size: cover;
-                                         background-color: black;
-                                         width: 25px;
-                                         height: 25px;
-                                         background-color: rgb(0, 0, 0);
-                                         position: absolute;
-                                         left: 15px;
-                                         border-radius: 25%;
-                                         border: 2px solid black;
-                                     }
+                                    
                                      
                                      .characters-profile-container7 {
                                          background-color: rgba(0, 0, 0, 0.801);
@@ -1122,18 +1081,6 @@
                                      /* Table move style */
                                      /* ferra torr style */
                                      
-                                     .logo-photo-profil {
-                                         background-image: url(gambar/mk\ logo.jfif);
-                                         background-size: cover;
-                                         background-color: black;
-                                         width: 25px;
-                                         height: 25px;
-                                         background-color: rgb(0, 0, 0);
-                                         position: absolute;
-                                         left: 15px;
-                                         border-radius: 25%;
-                                         border: 2px solid black;
-                                     }
                                      
                                      .characters-profile-container8 {
                                          background-color: rgba(0, 0, 0, 0.801);
@@ -1253,19 +1200,7 @@
                                      /* Table move style */
                                      /* goro style */
                                      
-                                     .logo-photo-profil {
-                                         background-image: url(gambar/mk\ logo.jfif);
-                                         background-size: cover;
-                                         background-color: black;
-                                         width: 25px;
-                                         height: 25px;
-                                         background-color: rgb(0, 0, 0);
-                                         position: absolute;
-                                         left: 15px;
-                                         border-radius: 25%;
-                                         border: 2px solid black;
-                                     }
-                                     
+
                                      .characters-profile-container9 {
                                          background-color: rgba(0, 0, 0, 0.801);
                                          width: 97.5%;
@@ -1384,18 +1319,6 @@
                                      /* Table move style */
                                      /* Jacqui briggs style */
                                      
-                                     .logo-photo-profil {
-                                         background-image: url(gambar/mk\ logo.jfif);
-                                         background-size: cover;
-                                         background-color: black;
-                                         width: 25px;
-                                         height: 25px;
-                                         background-color: rgb(0, 0, 0);
-                                         position: absolute;
-                                         left: 15px;
-                                         border-radius: 25%;
-                                         border: 2px solid black;
-                                     }
                                      
                                      .characters-profile-container10 {
                                          background-color: rgba(0, 0, 0, 0.801);
@@ -1515,19 +1438,6 @@
                                      /* Table move style */
                                      /* jason style */
                                      
-                                     .logo-photo-profil {
-                                        background-image: url(gambar/mk\ logo.jfif);
-                                        background-size: cover;
-                                        background-color: black;
-                                        width: 25px;
-                                        height: 25px;
-                                        background-color: rgb(0, 0, 0);
-                                        position: absolute;
-                                        left: 15px;
-                                        border-radius: 25%;
-                                        border: 2px solid black;
-                                    }
-                                    
                                     .characters-profile-container11 {
                                         background-color: rgba(0, 0, 0, 0.801);
                                         width: 97.5%;
@@ -2120,3 +2030,355 @@
                                     /* Table move style */
 
                                     /* kitana style */
+
+                                    .characters-profile-container16 {
+                                        background-color: rgba(0, 0, 0, 0.801);
+                                        width: 97.5%;
+                                        height: 400px;
+                                        border-radius: 20px;
+                                        margin: 10px;
+                                        border: 2px gray solid;
+                                        position: relative;
+                                        align-content: center;
+                                        display: flex;
+                                        overflow: hidden;
+                                    }                    
+
+                                    .profile-header16 {
+                                        width: 170px;
+                                        height: 30px;
+                                        position: absolute;
+                                        margin-left: 27px;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                    }
+                                    /* profil header style */
+                                    
+                                    .characters-profile-menu16 {
+                                        background-color: rgb(0, 0, 0);
+                                        width: 300px;
+                                        height: 350px;
+                                        margin-left: 10px;
+                                        border: 2px solid yellow;
+                                        border-radius: 20px;
+                                        background-image: url(gambar/kotal-kahn-mortal-kombat-x-character-artwork-altar-of-gaming-206.avif);
+                                        background-repeat: no-repeat;
+                                        background-size: cover;
+                                        background-position: 0 0;
+                                        margin-top: 23px;
+                                    }
+                                    /* characters profil style */
+                                    
+                                    .characters-info {
+                                        margin-right: 2rem;
+                                    }
+                                    
+                                    .characters-info h1 {
+                                        font-size: 20px;
+                                        font-weight: bolder;
+                                        color: orange;
+                                        margin-left: 20px;
+                                        margin-bottom: 10px;
+                                    }
+                                    /* charcater info style */
+                                    
+                                    table {
+                                        margin: 23px;
+                                        background-color: #acacac23;
+                                    }
+                                    
+                                    table tr {
+                                        border: 2px solid rgb(133, 133, 133);
+                                        border-radius: 23px;
+                                    }
+                                    /* table-info style */
+                                    
+                                    video {
+                                        margin-left: 20px;
+                                        border: 2px solid orange;
+                                        border-radius: 10px;
+                                    }
+                                    /* video style */
+                                    
+                                    .characters-moves-list16 {
+                                        height: 100%;
+                                        width: 750px;
+                                        position: relative;
+                                        border-left: grey solid 2px;
+                                    }
+                                    
+                                    .moveset16 {
+                                        width: 100%;
+                                        height: 100%;
+                                        overflow-x: auto;
+                                    }
+                                    /* characters-moves style */
+                                    
+                                    .move-list16 {
+                                        width: 80%;
+                                        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                                    }
+                                    
+                                    .move-list16 th,
+                                    .move-list16 td {
+                                        padding: 10px;
+                                        text-align: left;
+                                        border: 1px solid #444;
+                                    }
+                                    
+                                    .move-list16 th {
+                                        background-color: #444;
+                                        color: white;
+                                        text-align: left;
+                                    }
+                                    
+                                    .move-list16 tr:hover {
+                                        background-color: #555;
+                                    }
+                                    
+                                    .move-list16 td {
+                                        font-size: 16px;
+                                    }
+                                    
+                                    .move-list16 td:nth-child(2) {
+                                        text-align: center;
+                                        font-weight: bold;
+                                    }
+                                    /* Table move style */
+                                    /* Kotal Kahn */
+
+                                    /* Kung Jin */
+                                    .characters-profile-container17 {
+                                        background-color: rgba(0, 0, 0, 0.801);
+                                        width: 97.5%;
+                                        height: 400px;
+                                        border-radius: 20px;
+                                        margin: 10px;
+                                        border: 2px gray solid;
+                                        position: relative;
+                                        align-content: center;
+                                        display: flex;
+                                        overflow: hidden;
+                                    }                    
+
+                                    .profile-header17 {
+                                        width: 170px;
+                                        height: 30px;
+                                        position: absolute;
+                                        margin-left: 27px;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                    }
+                                    /* profil header style */
+                                    
+                                    .characters-profile-menu17 {
+                                        background-color: rgb(0, 0, 0);
+                                        width: 300px;
+                                        height: 350px;
+                                        margin-left: 10px;
+                                        border: 2px solid yellow;
+                                        border-radius: 20px;
+                                        background-image: url(gambar/kung-jin-mortal-kombat-x-character-artwork-altar-of-gaming-226.avif);
+                                        background-repeat: no-repeat;
+                                        background-size: cover;
+                                        background-position: -0rem 0;
+                                        margin-top: 23px;
+                                    }
+                                    /* characters profil style */
+                                    
+                                    .characters-info {
+                                        margin-right: 2rem;
+                                    }
+                                    
+                                    .characters-info h1 {
+                                        font-size: 20px;
+                                        font-weight: bolder;
+                                        color: orange;
+                                        margin-left: 20px;
+                                        margin-bottom: 10px;
+                                    }
+                                    /* charcater info style */
+                                    
+                                    table {
+                                        margin: 23px;
+                                        background-color: #acacac23;
+                                    }
+                                    
+                                    table tr {
+                                        border: 2px solid rgb(133, 133, 133);
+                                        border-radius: 23px;
+                                    }
+                                    /* table-info style */
+                                    
+                                    video {
+                                        margin-left: 20px;
+                                        border: 2px solid orange;
+                                        border-radius: 10px;
+                                    }
+                                    /* video style */
+                                    
+                                    .characters-moves-list17 {
+                                        height: 100%;
+                                        width: 750px;
+                                        position: relative;
+                                        border-left: grey solid 2px;
+                                    }
+                                    
+                                    .moveset17 {
+                                        width: 100%;
+                                        height: 100%;
+                                        overflow-x: auto;
+                                    }
+                                    /* characters-moves style */
+                                    
+                                    .move-list17 {
+                                        width: 80%;
+                                        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                                    }
+                                    
+                                    .move-list17 th,
+                                    .move-list17 td {
+                                        padding: 10px;
+                                        text-align: left;
+                                        border: 1px solid #444;
+                                    }
+                                    
+                                    .move-list17 th {
+                                        background-color: #444;
+                                        color: white;
+                                        text-align: left;
+                                    }
+                                    
+                                    .move-list17 tr:hover {
+                                        background-color: #555;
+                                    }
+                                    
+                                    .move-list17td {
+                                        font-size: 16px;
+                                    }
+                                    
+                                    .move-list17 td:nth-child(2) {
+                                        text-align: center;
+                                        font-weight: bold;
+                                    }
+                                    /* Table move style */
+
+                                    /* Kung Lao */
+
+                                    .characters-profile-container18 {
+                                        background-color: rgba(0, 0, 0, 0.801);
+                                        width: 97.5%;
+                                        height: 400px;
+                                        border-radius: 20px;
+                                        margin: 10px;
+                                        border: 2px gray solid;
+                                        position: relative;
+                                        align-content: center;
+                                        display: flex;
+                                        overflow: hidden;
+                                    }                    
+
+                                    .profile-header18 {
+                                        width: 170px;
+                                        height: 30px;
+                                        position: absolute;
+                                        margin-left: 27px;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                    }
+                                    /* profil header style */
+                                    
+                                    .characters-profile-menu18 {
+                                        background-color: rgb(0, 0, 0);
+                                        width: 300px;
+                                        height: 350px;
+                                        margin-left: 10px;
+                                        border: 2px solid yellow;
+                                        border-radius: 20px;
+                                        background-image: url(gambar/kung-lao-mortal-kombat-x-character-artwork-altar-of-gaming-207.avif);
+                                        background-repeat: no-repeat;
+                                        background-size: cover;
+                                        background-position: -0rem 0;
+                                        margin-top: 23px;
+                                    }
+                                    /* characters profil style */
+                                    
+                                    .characters-info {
+                                        margin-right: 2rem;
+                                    }
+                                    
+                                    .characters-info h1 {
+                                        font-size: 20px;
+                                        font-weight: bolder;
+                                        color: orange;
+                                        margin-left: 20px;
+                                        margin-bottom: 10px;
+                                    }
+                                    /* charcater info style */
+                                    
+                                    table {
+                                        margin: 23px;
+                                        background-color: #acacac23;
+                                    }
+                                    
+                                    table tr {
+                                        border: 2px solid rgb(133, 133, 133);
+                                        border-radius: 23px;
+                                    }
+                                    /* table-info style */
+                                    
+                                    video {
+                                        margin-left: 20px;
+                                        border: 2px solid orange;
+                                        border-radius: 10px;
+                                    }
+                                    /* video style */
+                                    
+                                    .characters-moves-list18 {
+                                        height: 100%;
+                                        width: 750px;
+                                        position: relative;
+                                        border-left: grey solid 2px;
+                                    }
+                                    
+                                    .moveset18 {
+                                        width: 100%;
+                                        height: 100%;
+                                        overflow-x: auto;
+                                    }
+                                    /* characters-moves style */
+                                    
+                                    .move-list18 {
+                                        width: 80%;
+                                        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                                    }
+                                    
+                                    .move-list18 th,
+                                    .move-list18 td {
+                                        padding: 10px;
+                                        text-align: left;
+                                        border: 1px solid #444;
+                                    }
+                                    
+                                    .move-list18 th {
+                                        background-color: #444;
+                                        color: white;
+                                        text-align: left;
+                                    }
+                                    
+                                    .move-list18 tr:hover {
+                                        background-color: #555;
+                                    }
+                                    
+                                    .move-list18 td {
+                                        font-size: 16px;
+                                    }
+                                    
+                                    .move-list18 td:nth-child(2) {
+                                        text-align: center;
+                                        font-weight: bold;
+                                    }
+                                    /* Table move style */

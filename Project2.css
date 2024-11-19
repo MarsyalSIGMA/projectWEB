@@ -193,6 +193,8 @@ header .logo h1 {
 
 /* container-menu */
 
+/* footer style */
+
 .hero {
 	position: relative;
 	display: flex;
@@ -229,481 +231,7 @@ header .logo h1 {
 
 /* tips-trick */
 
-.Characters {
-	position: relative;
-	width: 50%;
-	overflow: auto;
-	height: 400px;
-	margin-top: 20px;
-}
 
-.Characters span {
-	font-family: arial;
-	font-size: 30px;
-	font-weight: bolder;
-}
-
-.Characters p a {
-	text-decoration: none;
-}
-
-.Characters p {
-	margin-left: 7px;
-	font-weight: bold;
-}
-
-.Characters .img-alien {
-	background-color: #04AA6D;
-	width: 60px;
-	height: 60px;
-	border-radius: 15%;
-	background-image: url(/gambar/alien.jpg);
-	background-size: cover;
-	background-position: center center;
-}
-
-.Characters .img-baraka {
-	background-color: #04AA6D;
-	width: 60px;
-	height: 60px;
-	border-radius: 15%;
-	background-image: url(/gambar/Baraka_MKX_pointing.webp);
-	background-size: cover;
-	background-position: center center;
-}
-
-.Characters .img-boraicho {
-	background-color: #000000;
-	width: 60px;
-	height: 60px;
-	border-radius: 15%;
-	background-image: url(/gambar/MKXMobileBOrraicho.webp);
-	background-size: cover;
-	background-position: center center;
-}
-
-.Characters .img-cassie-cage {
-	background-color: #000000;
-	width: 60px;
-	height: 60px;
-	border-radius: 15%;
-	background-image: url(/gambar/cassie\ cage.jpg);
-	background-size: cover;
-	background-position: center center;
-}
-
-.Characters .img-cassie-cage {
-	background-color: #000000;
-	width: 60px;
-	height: 60px;
-	border-radius: 15%;
-	background-image: url(/gambar/cassie\ cage.jpg);
-	background-size: cover;
-	background-position: center center;
-}
-
-.Characters .img-dvorah {
-	background-color: #000000;
-	width: 60px;
-	height: 60px;
-	border-radius: 15%;
-	background-image: url(/gambar/dvorah.jpg);
-	background-size: cover;
-	background-position: center 80px;
-}
-
-.Characters .img-ermac {
-	background-color: #000000;
-	width: 60px;
-	height: 60px;
-	border-radius: 15%;
-	background-image: url(/gambar/ermac.jpeg);
-	background-size: cover;
-	background-position: center center;
-}
-
-.Characters .img-ferratorr {
-	background-color: #000000;
-	width: 60px;
-	height: 60px;
-	border-radius: 15%;
-	background-image: url(/gambar/ferratorr.jpeg);
-	background-size: cover;
-	background-position: center center;
-}
-
-.Characters .img-goro {
-	background-color: #000000;
-	width: 60px;
-	height: 60px;
-	border-radius: 15%;
-	background-image: url(/gambar/goro.jpeg);
-	background-size: cover;
-	background-position: center center;
-}
-
-.Characters .img-jacqui {
-	background-color: #000000;
-	width: 60px;
-	height: 60px;
-	border-radius: 15%;
-	background-image: url(/gambar/jacqui_files/36c284155863e9d5ec458bf89d23094f.png);
-	background-size: cover;
-	background-position: center center;
-}
-
-.Characters .img-jason {
-	background-color: #000000;
-	width: 60px;
-	height: 60px;
-	border-radius: 15%;
-	background-image: url(/gambar/jason.jpeg);
-	background-size: cover;
-	background-position: center center;
-}
-
-.Characters .img-jax {
-	background-color: #000000;
-	width: 60px;
-	height: 60px;
-	border-radius: 15%;
-	background-image: url(/gambar/jax.jpeg);
-	background-size: cover;
-	background-position: center center;
-}
-
-.Characters .img-johnny {
-	background-color: #000000;
-	width: 60px;
-	height: 60px;
-	border-radius: 15%;
-	background-image: url(/gambar/johnny.jpeg);
-	background-size: cover;
-	background-position: center center;
-}
-
-.Characters .img-kano {
-	background-color: #000000;
-	width: 60px;
-	height: 60px;
-	border-radius: 15%;
-	background-image: url(/gambar/kano.jpg);
-	background-size: cover;
-	background-position: center center;
-}
-
-.Characters .img-kenshi {
-	background-color: #000000;
-	width: 60px;
-	height: 60px;
-	border-radius: 15%;
-	background-image: url(/gambar/Kenshi.jpeg);
-	background-size: cover;
-	background-position: center center;
-}
-
-.Characters .img-kitana {
-	background-color: #000000;
-	width: 60px;
-	height: 60px;
-	border-radius: 15%;
-	background-image: url(/gambar/kitana.jpg);
-	background-size: cover;
-	background-position: center center;
-}
-
-.Characters .img-kotal {
-	background-color: #000000;
-	width: 60px;
-	height: 60px;
-	border-radius: 15%;
-	background-image: url(/gambar/kotal.webp);
-	background-size: cover;
-	background-position: center center;
-}
-
-.Characters .img-leatherface {
-	background-color: #000000;
-	width: 60px;
-	height: 60px;
-	border-radius: 15%;
-	background-image: url(/gambar/leatherface.jpg);
-	background-size: cover;
-	background-position: center center;
-}
-
-.Characters .img-liukang {
-	background-color: #000000;
-	width: 60px;
-	height: 60px;
-	border-radius: 15%;
-	background-image: url(/gambar/liukang.jpeg);
-	background-size: cover;
-	background-position: center center;
-}
-
-.Characters .img-mileena {
-	background-color: #000000;
-	width: 60px;
-	height: 60px;
-	border-radius: 15%;
-	background-image: url(/gambar/milenna.jpeg);
-	background-size: cover;
-	background-position: center center;
-}
-
-.Characters .img-predator {
-	background-color: #000000;
-	width: 60px;
-	height: 60px;
-	border-radius: 15%;
-	background-image: url(/gambar/predator.jpeg);
-	background-size: cover;
-	background-position: center center;
-}
-
-.Characters .img-raiden {
-	background-color: #000000;
-	width: 60px;
-	height: 60px;
-	border-radius: 15%;
-	background-image: url(/gambar/raiden.webp);
-	background-size: cover;
-	background-position: center center;
-}
-
-.Characters .img-reptile {
-	background-color: #000000;
-	width: 60px;
-	height: 60px;
-	border-radius: 15%;
-	background-image: url(/gambar/reptile.jpeg);
-	background-size: cover;
-	background-position: center center;
-}
-
-.Characters .img-scorpion {
-	background-color: #000000;
-	width: 60px;
-	height: 60px;
-	border-radius: 15%;
-	background-image: url(/gambar/scorpion.jpeg);
-	background-size: cover;
-	background-position: center center;
-}
-
-.Characters .img-shinnok {
-	background-color: #000000;
-	width: 60px;
-	height: 60px;
-	border-radius: 15%;
-	background-image: url(/gambar/shinnok.jpeg);
-	background-size: cover;
-	background-position: center center;
-}
-
-.Characters .img-sonya {
-	background-color: #000000;
-	width: 60px;
-	height: 60px;
-	border-radius: 15%;
-	background-image: url(/gambar/sonya.jpeg);
-	background-size: cover;
-	background-position: center center;
-}
-
-.Characters .img-sub {
-	background-color: #000000;
-	width: 60px;
-	height: 60px;
-	border-radius: 15%;
-	background-image: url(/gambar/sub.jpeg);
-	background-size: cover;
-	background-position: center center;
-}
-
-.Characters .img-takeda {
-	background-color: #000000;
-	width: 60px;
-	height: 60px;
-	border-radius: 15%;
-	background-image: url(/gambar/takeda.jpeg);
-	background-size: cover;
-	background-position: center center;
-}
-
-.Characters .img-tanya {
-	background-color: #000000;
-	width: 60px;
-	height: 60px;
-	border-radius: 15%;
-	background-image: url(/gambar/tanya.jpeg);
-	background-size: cover;
-	background-position: center center;
-}
-
-.Characters .img-tremor {
-	background-color: #000000;
-	width: 60px;
-	height: 60px;
-	border-radius: 15%;
-	background-image: url(/gambar/tremor.jpeg);
-	background-size: cover;
-	background-position: center center;
-}
-
-/* character img */
-
-.Characters .alien {
-	display: flex;
-	align-items: center;
-}
-
-.Characters .baraka {
-	display: flex;
-	align-items: center;
-}
-
-.Characters .boraicho {
-	display: flex;
-	align-items: center;
-}
-
-.Characters .cassie-cage {
-	display: flex;
-	align-items: center;
-}
-
-.Characters .dvorah {
-	display:flex;
-	align-items: center;
-}
-.Characters .ermac {
-	display: flex;
-	align-items: center;
-}
-
-.Characters .ferratorr {
-	display: flex;
-	align-items: center;
-}
-
-.Characters .goro {
-	display: flex;
-	align-items: center;
-}
-
-.Characters .jacqui {
-	display: flex;
-	align-items: center;
-}
-
-.Characters .jason {
-	display: flex;
-	align-items: center;
-}
-
-.Characters .jax {
-	display: flex;
-	align-items: center;
-}
-
-.Characters .johnny{
-	display: flex;
-	align-items: center;
-}
-
-.Characters .kano {
-	display: flex;
-	align-items: center;
-}
-
-.Characters .kenshi {
-	display: flex;
-	align-items: center;
-}
-
-.Characters .kitana {
-	display: flex;
-	align-items: center;
-}
-
-.Characters .kotal {
-	display: flex;
-	align-items: center;
-}
-
-.Characters .leatherface {
-	display: flex;
-	align-items: center;
-}
-
-.Characters .liukang {
-	display: flex;
-	align-items: center;
-}
-
-.Characters .mileena {
-	display: flex;
-	align-items: center;
-}
-
-.Characters .predator {
-	display: flex;
-	align-items: center;
-}
-
-.Characters .quanchi {
-	display: flex;
-	align-items: center;
-}
-
-.Characters .raiden {
-	display: flex;
-	align-items: center;
-}
-
-.Characters .reptile {
-	display: flex;
-	align-items: center;
-}
-
-.Characters .scorpion {
-	display: flex;
-	align-items: center;
-}
-
-.Characters .shinnok {
-	display: flex;
-	align-items: center;
-}
-
-.Characters .sonya {
-	display: flex;
-	align-items: center;
-}
-
-.Characters .sub {
-	display: flex;
-	align-items: center;
-}
-
-.Characters .takeda {
-	display: flex;
-	align-items: center;
-}
-
-.Characters .tanya {
-	display: flex;
-	align-items: center;
-}
-
-.Characters .tremor {
-	display: flex;
-	align-items: center;
-}
-
-/* Characters List */
 
 .trailer-menu {
 	width: 50%;
@@ -770,6 +298,150 @@ header .logo h1 {
 	transform: scale(0);
 }
 
+
+
+/* hero */
+
+/* alien guide style */
+
+/* header-characters style */
+.characters-profile {
+	width: 100%;
+	background-color: aliceblue;
+	border: gray solid 2px;
+	border-radius: 10px
+}
+.container {
+    width: 800px;
+    margin: auto;
+}
+
+.footer {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 30px 30px 20px 30px;
+    color: #2f2f2f;
+    background-color: #fff;
+    border-top: 2px solid #ff0000;
+	margin-top: 30px;
+  }
+  
+  .footer > * {
+    flex:  1 100%;
+  }
+  
+  .footer__addr {
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+  }
+  
+  .footer__logo {
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+	position: absolute;
+	left: 4rem;
+  }
+  
+  .footer__addr h2 {
+    margin-top: 1.3em;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  
+  .footer address {
+    font-style: normal;
+    color: #999;
+  }
+  
+  .footer__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    max-width: max-content;
+    background-color: rgb(33, 33, 33, 0.07);
+    border-radius: 100px;
+    color: #2f2f2f;
+    line-height: 0;
+    margin: 0.6em 0;
+    font-size: 1rem;
+    padding: 0 1.3em;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .footer li {
+    line-height: 2em;
+  }
+  
+  .footer a {
+    text-decoration: none;
+  }
+  
+  .footer__nav {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  
+  .footer__nav > * {
+    flex: 1 50%;
+    margin-right: 1.2em;
+  }
+  
+  .nav__ul a {
+    color: #999;
+  }
+  
+  .nav__ul--extra {
+    column-count: 2;
+    column-gap: 1.25em;
+  }
+  
+  .legal {
+    display: flex;
+    flex-wrap: wrap;
+    color: #999;
+  }
+    
+  .legal__links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .heart {
+    color: #2f2f2f;
+  }
+  
+  @media screen and (min-width: 24.375em) {
+    .legal .legal__links {
+      margin-left: auto;
+    }
+  }
+  
+  @media screen and (min-width: 40.375em) {
+    .footer__nav > * {
+      flex: 1;
+    }
+    
+    .nav__item--extra {
+      flex-grow: 2;
+    }
+    
+    .footer__addr {
+      flex: 1 0px;
+    }
+    
+    .footer__nav {
+      flex: 2 0px;
+    }
+  }
+/* footer */
+
 /* ukuran tablet */
 
 @media screen and (max-width: 768px) {
@@ -825,19 +497,10 @@ header .logo h1 {
 	.top-img {
 		background-image: url(gambar/mk.jpg);
 		background-size: cover;
-		background-position: 0 0;
+		background-position: 0 100px;
 	}
 }
 
-/* ukuran handphone */
-
-@media screen and (max-width: 576px) {
-	.top-img {
-		background-image: url(gambar/mk.jpg);
-		background-size: cover;
-		background-position: 0 0;
-	}
-}
 
 /* top img */
 @media screen and (max-width: 576px) {
@@ -847,20 +510,4 @@ header .logo h1 {
 		width: 20vw;
 		height: 20vh;
 	}
-}
-
-/* hero */
-
-/* alien guide style */
-
-/* header-characters style */
-.characters-profile {
-	width: 100%;
-	background-color: aliceblue;
-	border: gray solid 2px;
-	border-radius: 10px
-}
-.container {
-    width: 800px;
-    margin: auto;
 }
