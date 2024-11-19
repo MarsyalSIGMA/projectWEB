@@ -161,41 +161,79 @@
                                          font-family: Arial, Helvetica, sans-serif;
                                      }
                                      
-                                     header {
-                                         height: 100px;
-                                         width: 100%;
-                                         background-color: rgba(150, 150, 150, 0.749);
-                                         border: 3px solid rgb(166, 166, 166);
-                                         display: flex;
-                                         height: 50px;
-                                         align-items: center;
-                                         position: relative;
-                                     }
-                                     
-                                     header .navbar {
-                                         display: flex;
-                                         justify-content: space-between;
-                                         width: 27rem;
-                                         position: absolute;
-                                         right: 30px;
-                                     }
-                                     
-                                     header ul li {
-                                         margin-right: 5px;
-                                     }
-                                     
-                                     header ul li a {
-                                         text-decoration: none;
-                                         color: rgb(0, 0, 0);
-                                     }
-                                     
-                                     header ul li a:hover {
-                                         text-decoration: underline;
-                                     }
-                                     
-                                     header h1 {
-                                         margin-left: 50px;
-                                     }
+                                     .navbar {
+                                        display: flex;
+                                        justify-content: space-between;
+                                        align-items: center;
+                                        background-color: #333;
+                                        color: white;
+                                        padding: 10px 20px;
+                                      }
+                                  
+                                      .navbar a {
+                                        text-decoration: none;
+                                        color: white;
+                                        padding: 10px 15px;
+                                        transition: background-color 0.3s;
+                                      }
+                                  
+                                      .navbar a:hover {
+                                        background-color: #555;
+                                      }
+
+                                      .logo-photo-profil {
+                                        height: 30px;
+                                        width: 30px;
+                                        background-color: red;
+                                        background-image: url(gambar/mk\ logo.jfif);
+                                        background-size: cover;
+                                      }
+                                  
+                                      .dropdown {
+                                        position: relative;
+                                        display: inline-block;
+                                      }
+                                  
+                                      .dropdown-content {
+                                        display: none;
+                                        position: absolute;
+                                        right: 0;
+                                        background-color: white;
+                                        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+                                        z-index: 1;
+                                        min-width: 160px;
+                                      }
+                                  
+                                      .dropdown-content a {
+                                        color: black;
+                                        padding: 10px 15px;
+                                        text-decoration: none;
+                                        display: block;
+                                      }
+                                  
+                                      .dropdown-content a:hover {
+                                        background-color: #ddd;
+                                      }
+                                  
+                                      .dropdown:hover .dropdown-content {
+                                        display: block;
+                                      }
+                                  
+                                      .dropdown:hover .dropdown-button {
+                                        background-color: #555;
+                                      }
+                                  
+                                      .dropdown-button {
+                                        background-color: #333;
+                                        border: none;
+                                        color: white;
+                                        padding: 10px 15px;
+                                        cursor: pointer;
+                                      }
+                                  
+                                      .dropdown-button:focus {
+                                        outline: none;
+                                      }
                                      /* header */
                                      
                                      .container-menu {
@@ -207,18 +245,7 @@
                                          color: white;
                                      }
                                      /* container menu style */
-                                     
-                                     .logo-photo-profil {
-                                         background-image: url(gambar/mk\ logo.jfif);
-                                         background-color: black;
-                                         width: 25px;
-                                         height: 25px;
-                                         background-color: rgb(0, 0, 0);
-                                         position: absolute;
-                                         left: 15px;
-                                         border-radius: 25%;
-                                         border: 2px solid black;
-                                     }
+                                    
                                      
                                      .characters-profile-container {
                                          background-color: rgba(0, 0, 0, 0.801);
@@ -338,19 +365,6 @@
                                      /* Table move style */
                                      /* Alien-style */
                                      
-                                     .logo-photo-profil {
-                                         background-image: url(gambar/mk\ logo.jfif);
-                                         background-size: cover;
-                                         background-color: black;
-                                         width: 25px;
-                                         height: 25px;
-                                         background-color: rgb(0, 0, 0);
-                                         position: absolute;
-                                         left: 15px;
-                                         border-radius: 25%;
-                                         border: 2px solid black;
-                                     }
-                                     
                                      .characters-profile-container2 {
                                          background-color: rgba(0, 0, 0, 0.801);
                                          width: 97.5%;
@@ -469,19 +483,6 @@
                                      /* Table move style */
                                      /* bo-rai-cho style */
                                      
-                                     .logo-photo-profil {
-                                         background-image: url(gambar/mk\ logo.jfif);
-                                         background-size: cover;
-                                         background-color: black;
-                                         width: 25px;
-                                         height: 25px;
-                                         background-color: rgb(0, 0, 0);
-                                         position: absolute;
-                                         left: 15px;
-                                         border-radius: 25%;
-                                         border: 2px solid black;
-                                     }
-                                     
                                      .characters-profile-container3 {
                                          background-color: rgba(0, 0, 0, 0.801);
                                          width: 97.5%;
@@ -599,19 +600,7 @@
                                      }
                                      /* Table move style */
                                      /* cassie-cage style */
-                                     
-                                     .logo-photo-profil {
-                                         background-image: url(gambar/mk\ logo.jfif);
-                                         background-size: cover;
-                                         background-color: black;
-                                         width: 25px;
-                                         height: 25px;
-                                         background-color: rgb(0, 0, 0);
-                                         position: absolute;
-                                         left: 15px;
-                                         border-radius: 25%;
-                                         border: 2px solid black;
-                                     }
+                                    
                                      
                                      .characters-profile-container4 {
                                          background-color: rgba(0, 0, 0, 0.801);
@@ -729,19 +718,7 @@
                                          font-weight: bold;
                                      }
                                      /* Table move style */
-                                     
-                                     .logo-photo-profil {
-                                         background-image: url(gambar/mk\ logo.jfif);
-                                         background-size: cover;
-                                         background-color: black;
-                                         width: 25px;
-                                         height: 25px;
-                                         background-color: rgb(0, 0, 0);
-                                         position: absolute;
-                                         left: 15px;
-                                         border-radius: 25%;
-                                         border: 2px solid black;
-                                     }
+
                                      
                                      .characters-profile-container5 {
                                          background-color: rgba(0, 0, 0, 0.801);
@@ -861,18 +838,6 @@
                                      /* Table move style */
                                      /* ermac style */
                                      
-                                     .logo-photo-profil {
-                                         background-image: url(gambar/mk\ logo.jfif);
-                                         background-size: cover;
-                                         background-color: black;
-                                         width: 25px;
-                                         height: 25px;
-                                         background-color: rgb(0, 0, 0);
-                                         position: absolute;
-                                         left: 15px;
-                                         border-radius: 25%;
-                                         border: 2px solid black;
-                                     }
                                      
                                      .characters-profile-container6 {
                                          background-color: rgba(0, 0, 0, 0.801);
@@ -990,19 +955,7 @@
                                          font-weight: bold;
                                      }
                                      /* Table move style */
-                                     
-                                     .logo-photo-profil {
-                                         background-image: url(gambar/mk\ logo.jfif);
-                                         background-size: cover;
-                                         background-color: black;
-                                         width: 25px;
-                                         height: 25px;
-                                         background-color: rgb(0, 0, 0);
-                                         position: absolute;
-                                         left: 15px;
-                                         border-radius: 25%;
-                                         border: 2px solid black;
-                                     }
+                                    
                                      
                                      .characters-profile-container7 {
                                          background-color: rgba(0, 0, 0, 0.801);
@@ -1122,18 +1075,6 @@
                                      /* Table move style */
                                      /* ferra torr style */
                                      
-                                     .logo-photo-profil {
-                                         background-image: url(gambar/mk\ logo.jfif);
-                                         background-size: cover;
-                                         background-color: black;
-                                         width: 25px;
-                                         height: 25px;
-                                         background-color: rgb(0, 0, 0);
-                                         position: absolute;
-                                         left: 15px;
-                                         border-radius: 25%;
-                                         border: 2px solid black;
-                                     }
                                      
                                      .characters-profile-container8 {
                                          background-color: rgba(0, 0, 0, 0.801);
@@ -1253,19 +1194,7 @@
                                      /* Table move style */
                                      /* goro style */
                                      
-                                     .logo-photo-profil {
-                                         background-image: url(gambar/mk\ logo.jfif);
-                                         background-size: cover;
-                                         background-color: black;
-                                         width: 25px;
-                                         height: 25px;
-                                         background-color: rgb(0, 0, 0);
-                                         position: absolute;
-                                         left: 15px;
-                                         border-radius: 25%;
-                                         border: 2px solid black;
-                                     }
-                                     
+
                                      .characters-profile-container9 {
                                          background-color: rgba(0, 0, 0, 0.801);
                                          width: 97.5%;
@@ -1384,18 +1313,6 @@
                                      /* Table move style */
                                      /* Jacqui briggs style */
                                      
-                                     .logo-photo-profil {
-                                         background-image: url(gambar/mk\ logo.jfif);
-                                         background-size: cover;
-                                         background-color: black;
-                                         width: 25px;
-                                         height: 25px;
-                                         background-color: rgb(0, 0, 0);
-                                         position: absolute;
-                                         left: 15px;
-                                         border-radius: 25%;
-                                         border: 2px solid black;
-                                     }
                                      
                                      .characters-profile-container10 {
                                          background-color: rgba(0, 0, 0, 0.801);
@@ -1515,19 +1432,6 @@
                                      /* Table move style */
                                      /* jason style */
                                      
-                                     .logo-photo-profil {
-                                        background-image: url(gambar/mk\ logo.jfif);
-                                        background-size: cover;
-                                        background-color: black;
-                                        width: 25px;
-                                        height: 25px;
-                                        background-color: rgb(0, 0, 0);
-                                        position: absolute;
-                                        left: 15px;
-                                        border-radius: 25%;
-                                        border: 2px solid black;
-                                    }
-                                    
                                     .characters-profile-container11 {
                                         background-color: rgba(0, 0, 0, 0.801);
                                         width: 97.5%;
